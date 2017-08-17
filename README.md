@@ -9,9 +9,13 @@ function loadGoogleFontsByName(name) {
     head.appendChild(link);
 }
 
+This will load fonts by your name
+
 loadGoogleFontsByName('Open+Sans');
 ```
-##Apply dynamically font
+## Apply dynamically font
+
+This will apply a loaded font in a DOM element
 
 ```js
 element.style.fontFamily = 'Open Sans';
